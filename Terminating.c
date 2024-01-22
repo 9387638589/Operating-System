@@ -1,8 +1,8 @@
-//Write a program (using fork() and/or exec() commands) where parent and child execute: c)    before terminating, the parent waits for the child to finish its task.//#include <stdio.h>
+//Write a program (using fork() and/or exec() commands) where parent and child execute: c)    before terminating, the parent waits for the child to finish its task.//
+#include <stdio.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/wait.h>
-
 int main() {
     pid_t pid = fork();
 
